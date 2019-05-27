@@ -1,0 +1,10 @@
+*.txt
+*.exe
+*.sln
+.vs
+.vscode
+algo
+Debug
+a.cpp
+gen_input.py
+test.py
