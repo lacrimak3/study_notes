@@ -9,8 +9,8 @@ int dfsn[SIZE], sn[SIZE];
 bool fin[SIZE];
 vector<int> g[SIZE];
 stack<int> st;
-
 vector<vector<int>> scc;
+
 int dfs(int now);
 int main(void){
     ios_base::sync_with_stdio(0);
