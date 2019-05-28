@@ -4,7 +4,7 @@
 #include <stack>
 #include <vector>
 using namespace std;
-const int SIZE = 50001;
+const int SIZE = 500001;
 int n, m, cnt, SN, s, p;
 int dfsn[SIZE], sn[SIZE], pr[SIZE], spr[SIZE], ind[SIZE];
 bool fin[SIZE], re[SIZE], sre[SIZE];
@@ -34,7 +34,7 @@ int main(void) {
     int sStart = -1;
     for (int i = 0; i < n; ++i) {
         int si = sn[i];
-        if (i == s) sStart = si;
+        if (i == s - 1) sStart = si;
         for (int j : g[i]) {
             int sj = sn[j];
             if (si == sj) continue;
