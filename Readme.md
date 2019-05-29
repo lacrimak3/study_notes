@@ -1,13 +1,13 @@
 # Study Notes
 
-°øºÎÇÑ ³»¿ëÀ» ÀúÀåÇÏ´Â °÷ÀÔ´Ï´Ù.
+ê³µë¶€í•œ ë‚´ìš©ì„ ì €ìž¥í•˜ëŠ” ê³³ìž…ë‹ˆë‹¤.
 
 ## PS
-BOJ, CODEFORCES, SWEAµî ¿©·¯ »çÀÌÆ®¿¡¼­ Ç¬ ¹®Á¦ÀÇ ÄÚµå¸¦ ÀúÀåÇÕ´Ï´Ù.
+BOJ, CODEFORCES, SWEAë“± ì—¬ëŸ¬ ì‚¬ì´íŠ¸ì—ì„œ í‘¼ ë¬¸ì œì˜ ì½”ë“œë¥¼ ì €ìž¥í•©ë‹ˆë‹¤. 
 
 ## Algorithm
-¾Ë°í¸®Áò °øºÎ ³»¿ªÀ» ÀúÀåÇÕ´Ï´Ù.
+ì•Œê³ ë¦¬ì¦˜ ê³µë¶€ ë‚´ì—­ì„ ì €ìž¥í•©ë‹ˆë‹¤.
 
 ## last_posting
-¿¹Àü Repository¿¡ ÀúÀåµÇ¾î ÀÖ´ø ¹®Á¦ Ç®ÀÌ ³»¿ªÀÔ´Ï´Ù.  
-ÇöÀç ºí·Î±× ÁÖ¼Ò´Â https://sungho415.tistory.com ÀÔ´Ï´Ù.
+ì˜ˆì „ Repositoryì— ì €ìž¥ë˜ì–´ ìžˆë˜ ë¬¸ì œ í’€ì´ ë‚´ì—­ìž…ë‹ˆë‹¤.  
+í˜„ìž¬ ë¸”ë¡œê·¸ ì£¼ì†ŒëŠ” https://sungho415.tistory.com ìž…ë‹ˆë‹¤.
