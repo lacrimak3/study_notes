@@ -41,10 +41,16 @@ int main(void) {
 int chk(){
     int ret = INF;
     int one = n;
-    for(int i = n - 1; i >= 0; i--)
-        if(a[i] != 0 && a[i] == a[i + 1] - 1) one = i;
-    if(a[one] != 1) return ret;
-    
-
+    for(int i = n - 1; i >= 0 && a[i] != 0; i--){
+        if(a[i] == a[i + 1] - 1)
+            one = i;
+        else break;
+    }
+    bool ok = true;
+    for(int i = a[n] + 1; i <= n; i++){
+        int j = i - a[n] - 1;
+        if(p[i] > j) ok = false;
+    }
+    if(ok && a[one] == 1) ret = one - 1;
     return ret;
 }
