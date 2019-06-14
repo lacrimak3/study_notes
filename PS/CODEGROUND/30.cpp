@@ -24,6 +24,7 @@ struct Rec{
         return (x2 - x1) * (y2 - y1) > (other.x2 - other.x1) * (other.y2 - other.y1);
     }
 };
+
 const int N = 5001;
 int T;
 int n, m, k;
