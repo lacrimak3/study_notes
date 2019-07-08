@@ -1,6 +1,7 @@
 *.txt
 *.exe
 *.sln
+*.ini
 .vs
 .vscode
 algo
