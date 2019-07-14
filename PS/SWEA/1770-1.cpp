@@ -27,7 +27,7 @@ int makehash(int a[4][4], int idx);
 int getIdx(int val);
 void rotate(int a[4][4]);
 void flip(int a[4][4], int idx);
-int test(int module[][4][4])
+int makeBlock(int module[][4][4])
 {
     int ret = 0;
     for(int k = 0; k < MAX; k++){

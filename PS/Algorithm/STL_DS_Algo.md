@@ -16,3 +16,33 @@ public:
     }
 };
 ```
+
+## swap
+
+```cpp
+template <typename It>
+void _swap(It &a, It &b){
+    It c(a); a = b; b = c;
+}
+```
+
+## quick_sort
+
+```cpp
+template <typename It>
+void _sort(It begin, It end){
+    if(begin == end) return;
+    _swap(*begin, *((end - begin) / 2 + begin));
+    It pi = begin;
+    It le = begin + 1;
+    It ri = end - 1;
+    while(le <= ri){
+        while(le <= ri && !(*pi < *le)) le++;
+        while(le <= ri && !(*ri < *pi)) ri--;
+        if(le <= ri) _swap(*le, *ri);
+    }
+    _swap(*pi, *ri);
+    _sort(begin, ri);
+    _sort(ri + 1, end);
+}
+```
